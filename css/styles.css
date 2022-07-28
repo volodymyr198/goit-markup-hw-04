@@ -148,6 +148,7 @@ img {
 .header-contacts-icon {
     margin-right: 10px;
     vertical-align: middle;
+    fill: currentColor;
 }
 
 .header-contacts:hover,
@@ -225,7 +226,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    height: 120px;
     background-color: var(--our-team-bg-color);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -296,7 +297,7 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    padding-bottom: 30px;
+    
 }
 
 .team-worker-title {
@@ -319,6 +320,7 @@ img {
     display: flex;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 30px;
 }
 
 .team-soc-link {
@@ -365,10 +367,8 @@ img {
 
 .clients-list-link {
     fill: var(--icon-fill);
-    display: block;
     width: 170px;
     height: 92px;
-    padding: 16px 32px;
     border: 1px solid var(--clients-border-color);
     border-radius: 4px;
 }
@@ -428,7 +428,6 @@ img {
 }
 
 .footer-join-title {
-    text-align: center;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
